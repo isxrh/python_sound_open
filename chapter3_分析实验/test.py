@@ -3,7 +3,7 @@ import scipy.io.wavfile
 from matplotlib import pyplot as plt
 from scipy.fftpack import dct
 
-sample_rate, signal = scipy.io.wavfile.read('C3_4_y_4.wav')
+sample_rate, signal, bit = scipy.io.wavfile.read('C3_4_y_4.wav')
 
 print(sample_rate, len(signal))
 # 读取前3.5s 的数据

@@ -96,6 +96,7 @@ class soundBase:
         :return: 语音数据data, 采样率fs，数据位数bits
         """
         fs, data, bits = wavfile.read(self.path)
+
         if formater == 'sample':
             data = data / (2 ** (bits - 1))
         if return_nbits:

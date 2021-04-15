@@ -39,8 +39,7 @@ def enframe(x, win, inc=None):
 
 
 if __name__ == "__main__":
-    fs, data = wavfile.read('C3_1_y.wav')
-    # fs, data, nbits = wavfile.read('C3_1_y.wav')
+    fs, data, nbits = wavfile.read('C3_1_y.wav')
 
     inc = 100   # 帧移
     wlen = 200  # 窗长
