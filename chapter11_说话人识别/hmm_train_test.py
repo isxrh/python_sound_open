@@ -1,7 +1,7 @@
 from chapter2_基础.soundBase import *
 from chapter11_说话人识别.GMM import *
 from scipy.io import loadmat
-from chapter3_分析实验.C3_1_y_1 import enframe
+from chapter3_分析实验.enframe import enframe
 from chapter3_分析实验.mel import melbankm
 from sklearn.mixture import GMM
 
