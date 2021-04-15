@@ -1,6 +1,6 @@
 # speech signal processing lab
 
-🍴 forked from busyyang/python_sound_open
+🍴 forked from [busyyang/python_sound_open](https://github.com/busyyang/python_sound_open)
 
 ![](https://img.shields.io/badge/License-Apache-green)
 ![](https://img.shields.io/badge/python-3.x-green)
@@ -15,13 +15,11 @@ matplotlib==3.2.1
 scipy==1.2.1
 numpy==1.16.0
 pandas==0.25.1
-
 ~~~
 
 ## blogs
 
-
-《语音信号处理试验教程》（梁瑞宇等）的代码主要是Matlab实现的，现在Python比较热门，所以把这个项目大部分内容写成了Python实现，大部分是手动写的。
+《语音信号处理试验教程》代码的Python实现，在[原作者](https://github.com/busyyang)的基础上进行了小部分修改，原作者博客链接如下：
 
 [Python语音基础操作--2.1语音录制，播放，读取](https://blog.csdn.net/sinat_18131557/article/details/105339507)
 
