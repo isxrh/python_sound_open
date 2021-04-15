@@ -1,6 +1,6 @@
 from chapter2_基础.soundBase import *
 from chapter7_语音合成.flipframe import *
-from chapter3_分析实验.C3_1_y_1 import enframe
+from chapter3_分析实验.enframe import enframe
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False

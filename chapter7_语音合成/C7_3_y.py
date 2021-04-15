@@ -1,7 +1,7 @@
 from chapter2_基础.soundBase import *
 from chapter3_分析实验.timefeature import *
 from chapter7_语音合成.flipframe import *
-from chapter3_分析实验.C3_1_y_1 import enframe
+from chapter3_分析实验.enframe import enframe
 from chapter3_分析实验.lpc import lpc_coeff
 from chapter4_特征提取.共振峰估计 import *
 

@@ -1,5 +1,5 @@
 import numpy as np
-from chapter3_分析实验.C3_1_y_1 import enframe
+from chapter3_分析实验.enframe import enframe
 
 
 def SNR_Calc(s, r):

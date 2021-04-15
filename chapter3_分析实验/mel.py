@@ -1,7 +1,7 @@
 import numpy as np
 import pylab as plt
 from scipy.signal import lfilter
-from .C3_1_y_1 import enframe
+from enframe import enframe
 
 
 def melbankm(p, NFFT, fs, fl, fh, w=None):

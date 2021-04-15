@@ -1,4 +1,4 @@
-from chapter3_分析实验.C3_1_y_1 import enframe
+from chapter3_分析实验.enframe import enframe
 from chapter3_分析实验.timefeature import *
 
 

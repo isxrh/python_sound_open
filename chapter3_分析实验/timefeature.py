@@ -1,5 +1,5 @@
 import numpy as np
-from .C3_1_y_1 import enframe
+from enframe import enframe
 
 
 def STAc(x):
